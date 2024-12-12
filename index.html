@@ -7,8 +7,13 @@
     <script type="module" src="./components/JS/section.js"></script>
     
 </head>
+<style>
+    section{
+        max-width: 20%;
+    }
+</style>
 <body>
-    <section>
+    <section >
         <seccion-principal id="seccion"></seccion-principal>
     </section>
 </body>
@@ -16,7 +21,12 @@
         const seccion = document.getElementById("seccion");
         const Datos = [
             {name: 'Amigos', src: './resources/icons/friends.png'},
-            {name: 'Recuerdos', src:'./resources/icons/clock.png'}
+            {name: 'Recuerdos', src:'./resources/icons/clock.png'},
+            {name: 'Guardado', src:'./resources/icons/ribbon.png'},
+            {name: 'Grupos', src:'./resources/icons/group.png'},
+            {name: 'Video', src:'./resources/icons/video-marketing.png'},
+            {name: 'Marketplace', src:'./resources/icons/shop.png'},
+            {name: 'Feeds', src:'./resources/icons/feed.png'}
         ];
         seccion.data = Datos;
     </script>

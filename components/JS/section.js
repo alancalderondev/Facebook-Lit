@@ -6,20 +6,29 @@ class Section extends LitElement{
         a{
             text-decoration: none;
             display:flex;
+            align-items:center;
         }
         ul{
             list-style: none;
             padding: 0;
         }
         img{
-            max-width: 50px;
+            max-width: 30px;
+            max-height: 30px;
             margin-right: 10px;
             display: inline-block;
         }
+        li{
+            margin-bottom: 15px
+        }
         .elementos{
+            width: 100%;
             display: flex;
             flex-direction: row;
             align-items: center;
+        }
+        p{
+            font-weight: bold;
         }
     `;
 
