@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FaceBook Lit</title>
+    <script type="module" src="./components/JS/section.js"></script>
+    
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <section>
+        <seccion-principal id="seccion"></seccion-principal>
+    </section>
 </body>
+    <script>
+        const seccion = document.getElementById("seccion");
+        const Datos = [
+            {name: 'Amigos', src: './resources/icons/friends.png'},
+            {name: 'Recuerdos', src:'./resources/icons/clock.png'}
+        ];
+        seccion.data = Datos;
+    </script>
 </html>
