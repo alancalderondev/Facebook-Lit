@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "name": "facebook-lit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
