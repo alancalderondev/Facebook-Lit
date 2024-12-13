@@ -29,6 +29,7 @@ class Section extends LitElement{
         }
         p{
             font-weight: bold;
+            color: white;
         }
     `;
 
